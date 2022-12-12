@@ -1,0 +1,78 @@
+button, #submit {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: Calibri;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    background: transparent;
+    color: white;
+}
+
+.styles:hover, #submit:hover{
+    transform: translateY(-4px);
+    box-shadow: pink 1px 1px 20px 10px;
+    color: hotpink;
+    background-color: rgb(0,0,0,0.3);
+}
+
+.menu {
+    background-color: rgba(0,0,255,0.5);
+    width: 40%;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(0,200,255,1) 0%, rgba(0,0,255,1) 25%, rgba(0,0,255,1) 50%, rgba(0,0,255,1) 75%, rgba(0,200,255,1) 100%);
+    color: white;
+    font-family: Calibri;
+    text-align: center;
+    height: 130px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+    box-shadow: blue 1px 1px 20px 2px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.hdqwalls.com/wallpapers/bthumb/winter-snow-nature-4k-ej.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+input {
+    margin: 5px;
+}
+
+#formularz {
+    width: 500px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+#form {
+    background-color: rgb(0,0,0,0.8);
+    color: white;
+}
+
+p {
+    color: white;
+}
