@@ -1,0 +1,40 @@
+* {
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    background-color: grey;
+    text-align: center;
+}
+
+.ListStyle {
+    border: black 2px solid;
+    width: 150px;
+}
+
+li.weekend {
+    color: red;
+}
+
+#lista {
+    background-color: gray;
+    width: 150px;
+}
+
+#lista > h1 {
+    text-align: center;
+}
+
+#lista a {
+    color: lawngreen;
+    text-align: center;
+}
+
+h3 + h4 {
+    color: #ff9933;
+}
+
+h5 ~ .Bracia {
+    color: #ff9933;
+}
