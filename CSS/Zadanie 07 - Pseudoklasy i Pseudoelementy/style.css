@@ -1,0 +1,45 @@
+.text {
+    width: 300px;
+}
+.text:first-letter {
+    font-family: 'Times New Roman', serif;
+    font-size: 200%;
+    float: left;
+    padding-right: 5px;
+}
+
+.text:first-line {
+    font-size: 120%;
+}
+
+button:hover {
+    color: black;
+    font-size: 200%;
+}
+
+.acti:active {
+    color: red;
+    width: 100px;
+    height: 60px;
+}
+
+.lista:before {
+    content: " \FFEB";
+}
+
+.lista:after {
+    content: "*";
+}
+
+.home:link {
+    color: red;
+    font-family: Candara;
+}
+
+.textarea:focus {
+    cursor: wait;
+}
+
+.home:link {
+    font-size: 200%;
+}
