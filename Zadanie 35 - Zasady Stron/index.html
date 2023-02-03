@@ -2,83 +2,35 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            margin: 0;
-            font-size: 28px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .header {
-            background-color: #f1f1f1;
-            padding: 30px;
-            text-align: center;
-        }
-
-        #navbar {
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        #navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        #navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        #navbar a.active {
-            background-color: #04AA6D;
-            color: white;
-        }
-
-        .content {
-            padding: 16px;
-        }
-
-        .sticky {
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-
-        .sticky + .content {
-            padding-top: 60px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
 </head>
 <body>
-
-<div class="header">
-    <h2>Scroll Down</h2>
-    <p>Scroll down to see the sticky effect.</p>
+<div id="head">
+    <h1>ZASADY PROJEKTOWANIA STRON WWW</h1>
 </div>
+
+
+
 
 <div id="navbar">
-    <a class="active" href="javascript:void(0)">Home</a>
-    <a href="javascript:void(0)">News</a>
-    <a href="javascript:void(0)">Contact</a>
+    <a class="active" href="javascript:void(0)">Wstep</a>
+    <a href="javascript:void(0)">Zasady</a>
+    <a href="javascript:void(0)">Dlaczego</a>
+    <a href="javascript:void(0)">Kontakt</a>
 </div>
 
-<div class="content">
-    <h3>Sticky Navigation Example</h3>
-    <p>The navbar will stick to the top when you reach its scroll position.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<div id="left_banner">
 </div>
+
+<div id="wstep_content">
+    <h1>Wstep Do Projektowania Stron WWW</h1>
+    <p>Wdrożenie poniższych wskazówek da stronie internetowej większą szansę na pokazanie swojej oferty zainteresowanym osobom oraz pozyskanie potencjalnego klienta. Projektując lub przeprojektowując stronę internetową, łatwo jest ugrzęznąć w estetyce. (Ten odcień zielonego po prostu nie wygląda najlepiej.... Czy nie byłoby wspaniale, gdybyśmy umieścili logo na górze po prawej stronie?... A może by tak umieścić animację w środku strony?). Jeśli naprawdę chcesz dobrze zaprojektować swoją stronę internetową: dotrzeć do możliwie dużej liczby adresatów, na których Ci naprawdę zależy (optymalny profil targetu osobowego), chcesz zwiększyć liczbę odwiedzin, wygenerować leady itp.), to musisz zająć się czymś więcej niż tylko wyglądem i stylem Twojej strony internetowej. Żyjemy w świecie z ponad miliardem stron internetowych, na których odwiedzający mogą potencjalnie wylądować. Dlatego szczególnie ważne jest, aby naprawdę dobry projekt był łatwy w obsłudze. Twoja strona internetowa musi być łatwa w użyciu. Jednocześnie bezpośrednie doświadczenie użytkownika musi być pozytywne. Odwiedzanie strony www powinno być przyjemne i, w zależności od jej zawartości, może nawet zabawne.</p>
+</div>
+
+<div id="right_banner">
+</div>
+
 
 <script>
     window.onscroll = function() {myFunction()};
