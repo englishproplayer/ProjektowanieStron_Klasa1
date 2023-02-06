@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Zasada 4</title>
+</head>
+<body>
+<div id="head">
+  <h1>ZASADY PROJEKTOWANIA STRON WWW</h1>
+</div>
+
+
+
+
+<div id="navbar">
+  <a href="index.html">Wstep</a>
+  <a class="active" href="zasady.html">Zasady</a>
+  <a href="dlaczego.html">Dlaczego</a>
+</div>
+
+<div id="left_banner">
+</div>
+
+<div id="wstep_content">
+  <h1>Zasady Projektowania Stron WWW</h1>
+  <div id="zasada_1">
+    <h3>4. Spójność</h3>
+    <p>Nawigacja nie tylko powinna być spójna, ale ogólny wygląd każdej kolejno odwiedzanej podstrony powinien być spójny. Tła, schematy kolorów, czcionki, a także styl w tekstach to aspekty, w których jednolita konstrukcja ma pozytywny wpływ na łatwość obsługi i wygodę użytkownika. Nie chcemy powiedzieć, że wszystkie strony powinny mieć identyczny układ. Powinieneś stworzyć różne układy dla określonych typów stron (na przykład inny dla stron docelowych, trochę inny dla stron informacyjnych i tak dalej). Powinieneś jednak konsekwentnie używać tych układów, aby odwiedzający mogli łatwo zobaczyć, jakie informacje im podasz i gdzie. Nie przesadzaj. Wyobraź sobie, jak czułbyś się, jako gość Twojej strony, gdyby każda podstrona pomocy miała inny, układ, który nie jest spójny z resztą stron.
+
+    </p>
+    <br>
+    <a class="pages" href="zasada_3.html">Poprzednia</a>
+    <a class="pages" href="zasada_5.html">Nastepna</a>
+  </div>
+</div>
+
+<div id="right_banner">
+</div>
+
+<div id="footer">
+  <h5>Autor : Emil Zborowski 1p</h5>
+</div>
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Zasada 5</title>
+</head>
+<body>
+<div id="head">
+  <h1>ZASADY PROJEKTOWANIA STRON WWW</h1>
+</div>
+
+
+
+
+<div id="navbar">
+  <a href="index.html">Wstep</a>
+  <a class="active" href="zasady.html">Zasady</a>
+  <a href="dlaczego.html">Dlaczego</a>
+</div>
+
+<div id="left_banner">
+</div>
+
+<div id="wstep_content">
+  <h1>Zasady Projektowania Stron WWW</h1>
+  <div id="zasada_1">
+    <h3>5. Dostępność</h3>
+    <p>Według ostatnich badań amerykańskiej firmy ComScore wykorzystanie tabletów do prowadzenia działalności online w USA wzrosło o 30%. Korzystanie z Internetu ze smartfonów wzrosło o 78% w tym samym okresie. Jak z tego nauka? Wnioski można wyciągnąć samemu. Aby strona internetowa była przyjazna dla użytkownika, witryna musi być zgodna z różnymi urządzeniami (ich systemami operacyjnymi i przeglądarkami) używanymi przez użytkowników. W szerszym znaczeniu oznacza to inwestowanie w wysoce elastyczną strukturę strony internetowej, na przykład w responsywny projekt oraz standardy tworzenia stron internetowych. W responsywnej stronie www zawartość i jej format są automatycznie dostosowywane do wielkości urządzenia, z którego korzysta użytkownik.
+
+
+
+
+      W ostatecznym rozrachunku ważniejsze jest, aby Twoja witryna zapewniała satysfakcję użytkownikom na różnych platformach, a nie to, by wyglądała na nich identycznie. Tylko Ty to widzisz, Twoi goście nie. Może to oznaczać konieczność trzymania się konwencji projektowych specyficznych dla platformy, a nie próbowanie umieszczania unikalnych elementów projektu na Twojej stronie, które mogą być obce dla użytkowników na niektórych platformach. I skoro już tu jesteśmy, dochodzimy do następnej zasady...
+
+    </p>
+    <br>
+    <a class="pages" href="zasada_4.html">Poprzednia</a>
+    <a class="pages" href="zasada_6.html">Nastepna</a>
+  </div>
+</div>
+
+<div id="right_banner">
+</div>
+
+<div id="footer">
+  <h5>Autor : Emil Zborowski 1p</h5>
+</div>
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+</body>
+</html>

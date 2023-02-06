@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Zasada 3</title>
+</head>
+<body>
+<div id="head">
+  <h1>ZASADY PROJEKTOWANIA STRON WWW</h1>
+</div>
+
+
+
+
+<div id="navbar">
+  <a href="index.html">Wstep</a>
+  <a class="active" href="zasady.html">Zasady</a>
+  <a href="dlaczego.html">Dlaczego</a>
+</div>
+
+<div id="left_banner">
+</div>
+
+<div id="wstep_content">
+  <h1>Zasady Projektowania Stron WWW</h1>
+  <div id="zasada_1">
+    <h3>3. Łatwa nawigacja</h3>
+    <p>Intuicyjna nawigacja witryny pomaga odwiedzającym szybko znaleźć to, czego szukają. Najlepiej byłoby, gdyby odwiedzający odwiedzili Twoją witrynę i nie musieli zastanawiać się, czy, gdzie i jak pójść dalej. Przejście z punktu A do punktu B na Twojej stronie musi być łatwe. Poniższe wskazówki pomogą zoptymalizować nawigację po stronie:
+    </p>
+    <br>
+    <ol>
+      <li>Struktura Twojej głównej nawigacji powinna być prosta (najlepiej umieszczona u góry strony).</li>
+      <li>Stopka Twojej strony może również zawierać funkcję nawigacji.</li>
+      <li>Na każdej stronie z wyjątkiem strony głównej, użyj okruszków (breadcrumbs), aby odwiedzający wiedzieli, gdzie się znajdują i jak się tam dostali.</li>
+      <li>U góry strony powinna znajdować się funkcja wyszukiwania, dzięki której użytkownicy będą mogli łatwo wyszukiwać hasła.</li>
+      <li>Zbyt wiele opcji nawigacyjnych przynosi efekt przeciwny do zamierzonego.</li>
+      <li>Nie idź zbyt głęboko z kategoriami. W większości przypadków najlepiej jest, jeśli nawigacja nie jest głębsza niż trzy poziomy.</li>
+      <br>
+    </ol>
+    <a class="pages" href="zasada_2.html">Poprzednia</a>
+    <a class="pages" href="zasada_4.html">Nastepna</a>
+  </div>
+</div>
+
+<div id="right_banner">
+</div>
+
+<div id="footer">
+  <h5>Autor : Emil Zborowski 1p</h5>
+</div>
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+</body>
+</html>

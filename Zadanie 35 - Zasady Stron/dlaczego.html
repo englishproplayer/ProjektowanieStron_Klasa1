@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Dlaczego</title>
+</head>
+<body>
+<div id="head">
+  <h1>ZASADY PROJEKTOWANIA STRON WWW</h1>
+</div>
+
+
+
+
+<div id="navbar">
+  <a href="index.html">Wstep</a>
+  <a href="zasady.html">Zasady</a>
+  <a class="active" href="dlaczego.html">Dlaczego</a>
+</div>
+
+<div id="left_banner">
+</div>
+
+<div id="wstep_content">
+  <h1>Dlaczego warto wdrożyć powyższe punkty?</h1>
+  <div id="zasada_1">
+    <p>Tworzenie stron internetowych to bardzo wymagające zadanie. Od projektu strony będzie zależało, jak postrzegać będą nas potencjalni klienci i czy będzie funkcjonalna dla użytkownika. Powinniśmy pamiętać, że na projektowanie strony składa się wiele więcej elementów, niż wymieniliśmy. Powyższe aspekty to podstawa dobrego projektu strony www. Pamiętajmy, by nie pomijać projektu graficznego strony, gdyż tylko z nim jesteśmy w stanie stworzyć naprawdę dobrą stronę internetową przynoszącą korzyści klientowi.
+
+
+
+      Każda szanująca się projektowania stron www czytaj - firma zajmująca się profesjonalnym tworzeniem stron www, na samym początku zawsze robi projekt, gdzie uwzględnia powyższe punkty. Web Design to nie tylko znajomość programów graficznych, lecz również znajomość użyteczności strony. Najważniejsze to budowanie odczuć internauty, który porusza się po naszej stronie.
+
+
+
+      Wyżej wymienione elementy są podstawowe, przy tworzeniu skutecznej strony www. Pamiętajmy, że zleceniodawca zawsze chce mieć wymierne korzyści z posiadania strony, to jest jego inwestycja.
+    </p>
+    <br>
+  </div>
+</div>
+
+<div id="right_banner">
+</div>
+
+<div id="footer">
+  <h5>Autor : Emil Zborowski 1p</h5>
+</div>
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+</body>
+</html>

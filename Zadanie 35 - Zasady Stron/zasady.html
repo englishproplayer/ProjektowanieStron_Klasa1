@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Zasada 1</title>
+</head>
+<body>
+<div id="head">
+    <h1>ZASADY PROJEKTOWANIA STRON WWW</h1>
+</div>
+
+
+
+
+<div id="navbar">
+    <a href="index.html">Wstep</a>
+    <a class="active" href="zasady.html">Zasady</a>
+    <a href="dlaczego.html">Dlaczego</a>
+</div>
+
+<div id="left_banner">
+</div>
+
+<div id="wstep_content">
+    <h1>Zasady Projektowania Stron WWW</h1>
+    <div id="zasada_1">
+        <h3>1. Prostota projektu graficznego</h3>
+        <p>Za każdym razem, gdy podchodzisz do dużego projektu internetowego, pamiętaj o tym, co następuje: Większość odwiedzających nie przejmuje się tym, jak wygląda Twoja strona. Twoi goście nie przychodzą na Twoją stronę, aby ocenić, jak genialny jest Twój projekt. Przychodzą na nią, ponieważ chcą wykonać określoną czynność lub dostać określone informacje. Jeśli dodajesz do swojej strony niepotrzebne elementy projektu-elementy, które nie działają, utrudniasz użytkownikom osiągnięcie tego, po co przyszli na Twoją stronę. Z punktu widzenia użyteczności i doświadczenia użytkownika, prostota jest Twoim najlepszym przyjacielem. Aspekt ten może być realizowany na różne sposoby.</p>
+        <br>
+        <p> Oto kilka przykładów:</p>
+        <br>
+        <a href="zasady.html" class="przyklady">KOLORY</a>
+        <a href="zasada_1_fonty.html" class="przyklady">FONTY</a>
+        <a href="zasada_1_grafika.html" class="przyklady">GRAFIKA</a>
+        <br>
+        <br>
+        <p> Nie używaj zbyt wielu. Podręcznik interakcji między człowiekiem i komputerem (Handbook of Computer-Human Interaction) zaleca używanie maksymalnie pięciu (plus/minus dwa) różnych kolorów w projekcie strony internetowej.</p>
+        <a class="pages" href="zasada_2.html">Nastepna</a>
+    </div>
+</div>
+
+<div id="right_banner">
+</div>
+
+<div id="footer">
+    <h5>Autor : Emil Zborowski 1p</h5>
+</div>
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</body>
+</html>

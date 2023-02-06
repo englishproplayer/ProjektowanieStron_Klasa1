@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Zasada 8</title>
+</head>
+<body>
+<div id="head">
+  <h1>ZASADY PROJEKTOWANIA STRON WWW</h1>
+</div>
+
+
+
+
+<div id="navbar">
+  <a href="index.html">Wstep</a>
+  <a class="active"  href="zasady.html">Zasady</a>
+  <a href="dlaczego.html">Dlaczego</a>
+</div>
+
+<div id="left_banner">
+</div>
+
+<div id="wstep_content">
+  <h1>Zasady Projektowania Stron WWW</h1>
+  <div id="zasada_1">
+    <h3>8. Użytkownik jest najważniejszy</h3>
+    <p>Najważniejsze jest to, że użyteczność i wrażenia użytkownika zależą od preferencji użytkowników. Spójrz na to tak:, dla kogo projektujesz stronę? Dla Twoich użytkowników. Wymienione tu zasady, są dobrym punktem wyjścia. Jednak w miarę doskonalenia witryny jeszcze ważniejsze jest ich ciągłe udoskonalanie, uruchamianie testów, uzyskiwanie opinii i wprowadzanie zmian na podstawie tych wyników.
+
+
+
+      Jeśli chodzi o użyteczność i wrażenia użytkownika, nie ma mowy o obojętności i kompromisie! Czuj się jak Twoi goście i pamiętaj o nich na każdym kroku.
+    </p>
+    <br>
+    <br>
+    <a class="pages" href="zasada_7.html">Poprzednia</a>
+  </div>
+</div>
+
+<div id="right_banner">
+</div>
+
+<div id="footer">
+  <h5>Autor : Emil Zborowski 1p</h5>
+</div>
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+</body>
+</html>

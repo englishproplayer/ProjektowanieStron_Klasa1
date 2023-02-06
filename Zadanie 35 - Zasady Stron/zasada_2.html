@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Zasada 2</title>
+</head>
+<body>
+<div id="head">
+    <h1>ZASADY PROJEKTOWANIA STRON WWW</h1>
+</div>
+
+
+
+
+<div id="navbar">
+    <a href="index.html">Wstep</a>
+    <a class="active" href="zasady.html">Zasady</a>
+    <a href="dlaczego.html">Dlaczego</a>
+</div>
+
+<div id="left_banner">
+</div>
+
+<div id="wstep_content">
+    <h1>Zasady Projektowania Stron WWW</h1>
+    <div id="zasada_1">
+        <h3>2. Hierarchia wizualna strony internetowej</h3>
+        <p>Zasada hierarchii wizualnej jest ściśle związana z zasadą prostoty. Polega na aranżowaniu i organizowaniu elementów strony internetowej w sposób, który w naturalny, intuicyjny sposób doprowadzi odwiedzających stronę do najważniejszych jej elementów. Pamiętaj, że jeśli chodzi o optymalizację użyteczności i pozytywnych wrażeń użytkownika, celem jest nakłonienie ludzi do wykonywania określonych czynności w sposób, który wydaje im się naturalny i wygodny. Na przykład, dostosowując pozycję, kolor lub rozmiar niektórych elementów, możesz ustrukturyzować swoją stronę w sposób, który w naturalny sposób przyciąga odwiedzających do jej najważniejszych elementów.
+
+        </p>
+        <br>
+        <a class="pages" href="zasady.html">Poprzednia</a>
+        <a class="pages" href="zasada_3.html">Nastepna</a>
+    </div>
+</div>
+
+<div id="right_banner">
+</div>
+
+<div id="footer">
+    <h5>Autor : Emil Zborowski 1p</h5>
+</div>
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</body>
+</html>

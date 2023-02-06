@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Zasada 6</title>
+</head>
+<body>
+<div id="head">
+  <h1>ZASADY PROJEKTOWANIA STRON WWW</h1>
+</div>
+
+
+
+
+<div id="navbar">
+  <a href="index.html">Wstep</a>
+  <a class="active" href="zasady.html">Zasady</a>
+  <a href="dlaczego.html">Dlaczego</a>
+</div>
+
+<div id="left_banner">
+</div>
+
+<div id="wstep_content">
+  <h1>Zasady Projektowania Stron WWW</h1>
+  <div id="zasada_1">
+    <h3>6. Konwencje</h3>
+    <p>Istnieją pewne konwencje projektowania stron internetowych, które stały się znane większości użytkowników Internetu na przestrzeni lat. Należą do nich na przykład:
+
+    </p>
+    <br>
+    <ul>
+      <li>Główna nawigacja strony w górę lub w lewo.</li>
+      <li>Logo w lewym górnym rogu (lub środku) na stronie.</li>
+      <li>Logo, które można kliknąć, i przenosi użytkownika z powrotem na stronę początkową.</li>
+      <li>Łącza, które zmieniają kolor lub wygląd, gdy przesuniesz nad nim wskaźnik myszy.</li>
+    </ul>
+    <br>
+    <br>
+    <a class="pages" href="zasada_5.html">Poprzednia</a>
+    <a class="pages" href="zasada_7.html">Nastepna</a>
+  </div>
+</div>
+
+<div id="right_banner">
+</div>
+
+<div id="footer">
+  <h5>Autor : Emil Zborowski 1p</h5>
+</div>
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+</body>
+</html>

@@ -75,14 +75,14 @@ body {
 
 #left_banner {
     width: 3%;
-    height: 1000px;
+    height: 800px;
     background-color: rgba(51,51,51,255);
     float: left;
 }
 
 #right_banner {
     width: 3%;
-    height: 1000px;
+    height: 800px;
     background-color: rgba(51,51,51,255);
     float: right;
 }
@@ -92,5 +92,65 @@ body {
     float: left;
 }
 
+p {
+    font-family: "Century Gothic";
+}
 
+#wstep_p {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
 
+#footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color:rgba(51,51,51,255) ;
+    color: white;
+    height: 50px;
+}
+
+#zasada_1 {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.przyklady {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.przyklady:after {
+    content: '↞';
+}
+
+.przyklady:before {
+    content: '↠';
+}
+
+.pages {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.pages:after {
+    content: '↞';
+}
+
+.pages:before {
+    content: '↠';
+}
+
+li {
+    text-align: left;
+}
