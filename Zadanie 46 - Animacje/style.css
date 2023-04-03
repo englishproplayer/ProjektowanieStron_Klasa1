@@ -1,0 +1,18 @@
+header {
+    background-color: #DBCC93;
+    color: #6a3d37;
+    text-align: center;
+}
+body {
+    background-color: navajowhite;
+}
+
+footer {
+    background-color: #DBCC93;
+    color: #6a3d37;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
