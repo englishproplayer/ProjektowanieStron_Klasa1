@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 1200px;
+    height: 750px;
+}
+
+.menu {
+    width: 180px;
+    height: 650px;
+    background-color: aquamarine;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.image {
+    float: left;
+    width: 1000px;
+    height: 600px;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+img {
+    height: 600px;
+    width: 1000px;
+}
+
+.naglowek {
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.footer {
+    background-color: cyan;
+    width: 1200px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+}
