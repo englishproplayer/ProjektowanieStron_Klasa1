@@ -5,5 +5,5 @@
 }
 
 .box:first-child {
-    width: 70%;
+    flex-grow: 1;
 }
