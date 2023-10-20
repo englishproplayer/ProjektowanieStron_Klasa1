@@ -396,3 +396,7 @@ section.home {
 ul a:hover {
   background-color: rgba(255,255,255,0.2);
 }
+
+.item img {
+  padding: 30px;
+}
